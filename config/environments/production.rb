@@ -79,4 +79,7 @@ Rails.application.configure do
 
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
+  config.assets.compile = true
+  config.assets.precompile =  ['*.js', '*.css', '*.css.erb']
+
 end
