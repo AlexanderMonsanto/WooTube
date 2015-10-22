@@ -3,13 +3,17 @@ html,body {
 }
 
 h1 {
-  font-family: Arial,sans-serif;
+  font-family: 'Bangers', Arial,sans-serif;
   font-size: 80px;
-  color:rgba(0,0,0,.7);
+  color:rgba(128,0,128,.8);
+  /*font-weight: bold;*/
 }
 
 .lead {
-	color:rgba(0,0,0,.7);
+	color:rgba(128,0,128,.7);
+/*  font-weight: bold;*/
+  font-family: 'Bangers', Arial,sans-serif;
+  font-weight: bold;
 }
 
 
